@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif; }
+
+a {
+  color: #5765CA;
+  text-decoration: none;
+  -webkit-transition: 70ms all ease-in-out;
+  -o-transition: 70ms all ease-in-out;
+  transition: 70ms all ease-in-out; }
+  a:hover {
+    color: #4453c4; }
+
+.container {
+  max-width: 980px;
+  margin: 0 auto; }

@@ -1,0 +1,19 @@
+@import modules/vars.sass
+
+=tran
+     transition: 70ms all ease-in-out
+
+body
+     margin: 0
+     font-family: 'Montserrat', sans-serif
+
+a
+     color: $blue
+     text-decoration: none
+     +tran
+     &:hover
+          color: darken($blue, 5%)
+
+.container
+     max-width: 980px
+     margin: 0 auto
